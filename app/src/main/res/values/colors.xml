@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ad1a7f</color>
+    <color name="colorPrimaryDark">#ad1a7f</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccentSecondary">#ad1a7f</color>
+    <color name="viewBg">#f8f8f8</color>
+    <color name="btn_disabled">#999</color>
+    <color name="lbl_value">#222222</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="newcolor">#ff2068</color>
+    <color name="newcolor1">#ad1a7f</color>
+    <color name="newcolor2">#6d0094</color>
+
+    <color name="bookregcolor">#03554E</color>
+</resources>

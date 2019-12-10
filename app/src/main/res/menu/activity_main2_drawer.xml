@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scanner"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scanner" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="About" />
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_postz"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Members Info" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Send Message" />
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="User Feedback" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_person_pin_black_24dp"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

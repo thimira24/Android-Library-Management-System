@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_layout"
+    android:layout_margin="0dp"
+    android:background="#FFFFFF"
+    android:padding="3dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImageView_uploads"
+            android:padding="9dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/book_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/ImageView_uploads"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="15dp"
+            android:text="Book Title"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/book_isbn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_toRightOf="@+id/ImageView_uploads"
+            android:paddingLeft="15dp"
+            android:text="Author"
+            android:textColor="#3A3838"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/book_name_location_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_toRightOf="@+id/ImageView_uploads"
+            android:paddingLeft="15dp"
+            android:text="LOCATION"
+            android:textColor="#9C27B0"
+            android:textSize="10dp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_toRightOf="@+id/ImageView_uploads"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="70dp"
+            android:background="?android:attr/listDivider" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
